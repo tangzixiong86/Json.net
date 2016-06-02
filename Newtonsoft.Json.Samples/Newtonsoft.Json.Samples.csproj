@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F133EA0F-9017-414E-9B87-61BF72777541}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Newtonsoft.Json.Samples</RootNamespace>
+    <AssemblyName>Newtonsoft.Json.Samples</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LinqToJson\CreatingJSON\Recipe30Program.cs" />
+    <Compile Include="LinqToJson\QueryingJSONwithLINQ\Recipe35Program.cs" />
+    <Compile Include="LinqToJson\QueryingJSONwithLINQ\Recipe34Program.cs" />
+    <Compile Include="LinqToJson\QueryingJSONwithLINQ\Recipe33Program.cs" />
+    <Compile Include="LinqToJson\QueryingJSONwithSelectToken\Recipe36Program.cs" />
+    <Compile Include="LinqToJson\QueryingJSONwithSelectToken\Recipe37Program.cs" />
+    <Compile Include="LinqToJson\QueryingJSONwithSelectToken\Recipe38Program.cs" />
+    <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\DirectoryAccount.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Post.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserStatus.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PreservingObjectReferences\Recipe10Program.cs" />
+    <Compile Include="PreservingObjectReferences\Recipe11Program.cs" />
+    <Compile Include="CustomCreationConverter\Recipe12Program.cs" />
+    <Compile Include="Formatting\Recipe20Program.cs" />
+    <Compile Include="LinqToJson\ParsingJSON\Recipe29Program.cs" />
+    <Compile Include="LinqToJson\ParsingJSON\Recipe28Program.cs" />
+    <Compile Include="LinqToJson\CreatingJSON\Recipe32Program.cs" />
+    <Compile Include="LinqToJson\CreatingJSON\Recipe31Program.cs" />
+    <Compile Include="SerializationTracing\Recipe27Program.cs" />
+    <Compile Include="SerializationUsingContractResolver\Recipe26Program.cs" />
+    <Compile Include="SerializationUsingContractResolver\Recipe25Program.cs" />
+    <Compile Include="ConditionalPropertySerialization\Recipe24Program.cs" />
+    <Compile Include="ConditionalPropertySerialization\Recipe23Program.cs" />
+    <Compile Include="DeserializingPartialJSONFragments\Recipe22Program.cs" />
+    <Compile Include="Formatting\Recipe21Program.cs" />
+    <Compile Include="SerializeDictionary\Recipe40Program.cs" />
+    <Compile Include="SerializeJSONtoFile\Recipe41Program.cs" />
+    <Compile Include="SerializeObject\Recipe39Program.cs" />
+    <Compile Include="SerializingCollections\Recipe13Program.cs" />
+    <Compile Include="DeserializingCollections\Recipe14Program.cs" />
+    <Compile Include="DeserializingDictionaries\Recipe15Program.cs" />
+    <Compile Include="SerializingDatesInJSON\Recipe16Program.cs" />
+    <Compile Include="SerializationAttributes\Recipe17Program.cs" />
+    <Compile Include="SerializationAttributes\Recipe18Program.cs" />
+    <Compile Include="Formatting\Recipe19Program.cs" />
+    <Compile Include="SerializingAndDeserializingJSON\Recipe2Program.cs" />
+    <Compile Include="SerializingAndDeserializingJSON\Recipe1Program.cs" />
+    <Compile Include="SerializationAttributes\Recipe3Program.cs" />
+    <Compile Include="SerializationAttributes\Recipe4Program.cs" />
+    <Compile Include="SerializationAttributes\Recipe5Program.cs" />
+    <Compile Include="SerializationAttributes\Recipe6Program.cs" />
+    <Compile Include="SerializationCallbacks\Recipe7Program.cs" />
+    <Compile Include="SerializationErrorHandling\Recipe8Program.cs" />
+    <Compile Include="SerializationErrorHandling\Recipe9Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="LinqToJson\ParsingJSON\computer.json" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Newtonsoft.Json\Newtonsoft.Json.csproj">
+      <Project>{eeea67f9-9089-481d-a4dc-0966dec9fd7d}</Project>
+      <Name>Newtonsoft.Json</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
