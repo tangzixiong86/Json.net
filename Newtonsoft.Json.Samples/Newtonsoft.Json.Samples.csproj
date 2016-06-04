@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConstructorHandlingSetting\Recipe51Program.cs" />
+    <Compile Include="DeserializeAnonymousType\Recipe47Program.cs" />
+    <Compile Include="DeserializeDataSet\Recipe48Program.cs" />
+    <Compile Include="DeserializeJSONfromFile\Recipe49Program.cs" />
+    <Compile Include="DeserializeObject\Recipe46Program.cs" />
     <Compile Include="LinqToJson\CreatingJSON\Recipe30Program.cs" />
     <Compile Include="LinqToJson\QueryingJSONwithLINQ\Recipe35Program.cs" />
     <Compile Include="LinqToJson\QueryingJSONwithLINQ\Recipe34Program.cs" />
@@ -57,6 +62,7 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserStatus.cs" />
+    <Compile Include="PopulateObject\Recipe50Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PreservingObjectReferences\Recipe10Program.cs" />
@@ -74,9 +80,13 @@
     <Compile Include="ConditionalPropertySerialization\Recipe23Program.cs" />
     <Compile Include="DeserializingPartialJSONFragments\Recipe22Program.cs" />
     <Compile Include="Formatting\Recipe21Program.cs" />
+    <Compile Include="SerializeDataSet\Recipe43Program.cs" />
     <Compile Include="SerializeDictionary\Recipe40Program.cs" />
     <Compile Include="SerializeJSONtoFile\Recipe41Program.cs" />
     <Compile Include="SerializeObject\Recipe39Program.cs" />
+    <Compile Include="SerializeRawJSONvalue\Recipe44Program.cs" />
+    <Compile Include="SerializeUnindentedJSON\Recipe45Program.cs" />
+    <Compile Include="SerializewithJsonConverters\Recipe42Program.cs" />
     <Compile Include="SerializingCollections\Recipe13Program.cs" />
     <Compile Include="DeserializingCollections\Recipe14Program.cs" />
     <Compile Include="DeserializingDictionaries\Recipe15Program.cs" />
@@ -84,8 +94,8 @@
     <Compile Include="SerializationAttributes\Recipe17Program.cs" />
     <Compile Include="SerializationAttributes\Recipe18Program.cs" />
     <Compile Include="Formatting\Recipe19Program.cs" />
-    <Compile Include="SerializingAndDeserializingJSON\Recipe2Program.cs" />
-    <Compile Include="SerializingAndDeserializingJSON\Recipe1Program.cs" />
+    <Compile Include="DeserializeObject\Recipe2Program.cs" />
+    <Compile Include="SerializeObject\Recipe1Program.cs" />
     <Compile Include="SerializationAttributes\Recipe3Program.cs" />
     <Compile Include="SerializationAttributes\Recipe4Program.cs" />
     <Compile Include="SerializationAttributes\Recipe5Program.cs" />

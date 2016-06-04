@@ -13,3 +13,12 @@ E:\开源项目\Newtonsoft.Json-8.0.3\Newtonsoft.Json\Newtonsoft.Json.Samples\ob
 C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\Newtonsoft.Json.Samples\bin\Debug\Newtonsoft.Json.Samples.exe.config
 C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\Newtonsoft.Json.Samples\obj\Debug\Newtonsoft.Json.Samples.exe
 C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\Newtonsoft.Json.Samples\obj\Debug\Newtonsoft.Json.Samples.pdb
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json.Samples\bin\Debug\Newtonsoft.Json.Samples.exe.config
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json.Samples\obj\Debug\Newtonsoft.Json.Samples.exe
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json.Samples\obj\Debug\Newtonsoft.Json.Samples.pdb
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json.Samples\bin\Debug\Newtonsoft.Json.Samples.exe
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json.Samples\bin\Debug\Newtonsoft.Json.Samples.pdb
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json.Samples\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json.Samples\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json.Samples\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json.Samples\obj\Debug\Newtonsoft.Json.Samples.csprojResolveAssemblyReference.cache

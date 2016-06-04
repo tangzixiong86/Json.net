@@ -6,3 +6,11 @@ E:\开源项目\Newtonsoft.Json-8.0.3\Src\Newtonsoft.Json\bin\Debug\Net45\Newton
 E:\开源项目\Newtonsoft.Json-8.0.3\Src\Newtonsoft.Json\obj\Debug\Net45\Newtonsoft.Json.csprojResolveAssemblyReference.cache
 E:\开源项目\Newtonsoft.Json-8.0.3\Src\Newtonsoft.Json\obj\Debug\Net45\Newtonsoft.Json.dll
 E:\开源项目\Newtonsoft.Json-8.0.3\Src\Newtonsoft.Json\obj\Debug\Net45\Newtonsoft.Json.pdb
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\bin\Debug\Net45\Newtonsoft.Json.xml
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\bin\Debug\Net45\Newtonsoft.Json.dll
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\bin\Debug\Net45\Newtonsoft.Json.pdb
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\bin\Debug\Net45\Newtonsoft.Json.dll.CodeAnalysisLog.xml
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\bin\Debug\Net45\Newtonsoft.Json.dll.lastcodeanalysissucceeded
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\obj\Debug\Net45\Newtonsoft.Json.csprojResolveAssemblyReference.cache
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\obj\Debug\Net45\Newtonsoft.Json.dll
+C:\Users\tangz\Source\Repos\Json.net\Newtonsoft.Json\obj\Debug\Net45\Newtonsoft.Json.pdb

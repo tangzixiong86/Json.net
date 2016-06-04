@@ -42,7 +42,7 @@ namespace Newtonsoft.Json.Samples
             //Recipe30Program.Run();
             //Recipe30Program.Run();
             //Recipe31Program.Run();
-            Recipe32Program.Run();
+            //Recipe32Program.Run();
             //Recipe33Program.Run();
             //Recipe34Program.Run();
             //Recipe35Program.Run();
@@ -60,8 +60,8 @@ namespace Newtonsoft.Json.Samples
             //Recipe47Program.Run();
             //Recipe48Program.Run();
             //Recipe49Program.Run();
-            //Recipe20Program.Run();
-            //Recipe51Program.Run();
+            //Recipe50Program.Run();
+            Recipe51Program.Run();
             //Recipe52Program.Run();
             //Recipe53Program.Run();
             //Recipe54Program.Run();

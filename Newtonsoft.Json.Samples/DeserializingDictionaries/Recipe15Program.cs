@@ -27,6 +27,18 @@ namespace Newtonsoft.Json.Samples
 
             Console.WriteLine(values["key1"]);
             // value1
+            json = @"{
+                      'href': '/account/login.aspx',
+                      'target': '_blank'
+                    }";
+
+            Dictionary<string, string> htmlAttributes = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+
+            Console.WriteLine(htmlAttributes["href"]);
+            // /account/login.aspx
+
+            Console.WriteLine(htmlAttributes["target"]);
+            // _blank
         }
     }
    
